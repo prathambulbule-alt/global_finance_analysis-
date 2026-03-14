@@ -13,7 +13,7 @@ st.sidebar.header("⚙️ Customize Analysis")
 
 # Date range input (with default values)
 default_start = d.date(2022, 1, 1)
-default_end = d.date(2026, 3, 24)
+default_end = d.date(2026, 2, 24)
 
 start_date = st.sidebar.date_input("📅 Start Date", default_start, 
                                    min_value=d.date(2015, 1, 1), 
